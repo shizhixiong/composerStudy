@@ -1,0 +1,20 @@
+{
+    "name": "shizhixiong/composer-study",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "大雄",
+            "email": "1119820761@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shizhixiong\\ComposerStudy\\": "src/ComposerStudy"
+        }
+    }
+}
