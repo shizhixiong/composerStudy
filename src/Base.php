@@ -13,4 +13,9 @@ class Base
     {
         return ['name' => 'shizhixiong', 'web' => 'blog.shizhixiong.com'];
     }
+
+    public function getName(...$arg)
+    {
+        return $arg;
+    }
 }
